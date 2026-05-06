@@ -1,4 +1,4 @@
-# Hanforge — HTML to HWPX Conversion Engine
+# html2hwpx — HTML to HWPX Conversion Engine
 
 > Convert HTML documents to **HWPX** (Hangul Word Processor XML format) — pure JavaScript, no native dependencies.
 
@@ -26,14 +26,14 @@
 
 ## Overview
 
-**Hanforge** is a lightweight, fully JavaScript-based conversion engine that transforms HTML documents into the HWPX format used by Hangul Word Processor (HWP). It requires no native binaries or external tools — just Node.js.
+**html2hwpx** is a lightweight, fully JavaScript-based conversion engine that transforms HTML documents into the HWPX format used by Hangul Word Processor (HWP). It requires no native binaries or external tools — just Node.js.
 
 ---
 
 ## Project Structure
 
 ```
-Hanforge/
+html2hwpx/
 ├── convert.js               ← Standalone script (run directly with Node.js)
 ├── package.json
 ├── README.md
@@ -66,7 +66,7 @@ Clone the repository and run directly with Node.js:
 
 ```bash
 git clone <repo-url>
-cd Hanforge
+cd html2hwpx
 npm install
 node convert.js input.html output.hwpx
 ```
@@ -76,7 +76,7 @@ node convert.js input.html output.hwpx
 Install once and use the `html2hwpx` command from anywhere:
 
 ```bash
-cd Hanforge
+cd html2hwpx
 npm install -g .
 ```
 
@@ -147,7 +147,7 @@ const astFromString = HtmlToAst.parse('<h1>Hello</h1><p>World</p>');
 
 ## Custom HWPX Template
 
-Hanforge is driven by a **pre-extracted HWPX template directory**. The built-in template lives at `Hanforge/template/`. You can substitute your own to carry over custom styles, fonts, or page settings.
+html2hwpx is driven by a **pre-extracted HWPX template directory**. The built-in template lives at `html2hwpx/template/`. You can substitute your own to carry over custom styles, fonts, or page settings.
 
 **Steps to create a custom template:**
 
