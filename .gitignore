@@ -37,3 +37,7 @@ eunsoonimy_sample.html
 test_files/
 output.hwpx
 node_modules/
+test_out.hwpx
+test_output.hwpx
+test_prof.html
+test_prof.hwpx
