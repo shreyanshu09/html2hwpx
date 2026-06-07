@@ -1,6 +1,6 @@
 {
   "name": "html2hwpx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pure-JavaScript HTML to HWPX (Hangul Word Processor) converter — no pandoc required",
   "main": "lib/index.js",
   "bin": {
